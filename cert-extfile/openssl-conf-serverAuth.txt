@@ -1,0 +1,7 @@
+# このファイルに設定可能な項目は以下を参照
+# https://docs.openssl.org/3.3/man5/x509v3_config/
+
+basicConstraints = critical, CA:false
+keyUsage = critical, digitalSignature
+extendedKeyUsage = critical, serverAuth
+subjectKeyIdentifier = none
